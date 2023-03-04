@@ -1,7 +1,7 @@
-background: #f3f1f1;
-  color: #653e3e;
-  font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-
+body {
+    background: #f3f1f1;
+    color: #653e3e;
+    font: 300 16px/22px "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 * {
@@ -17,35 +17,37 @@ h1 {
 	
 }
     
-h4 {font-size: 2rem ;
+h4 {
+    font-size: 2rem ;
     margin-top: 3rem;
     font-weight: normal;
     text-align: center 
-	}
+}
 	
- ul {font-size: 2vw ;
+ ul {
+    font-size: 2vw ;
     margin-top: 1rem;
     font-weight: absolute;
     text-align: center
-    } 
+} 
 
-li {font-size: 2vw ;
+li {
+    font-size: 2vw ;
     margin-top: 1rem;
     font-weight: center;
     text-align: center
-    } 
+} 
 
 /* обрати внимание на повторение background-color - он должен быть одним, выбери, пожалуйста, только одно значение */
-li { background: #f3f1f1;
-  ;
-    } 
+li { 
+    background: #f3f1f1;
+} 
     
 .big-text {
     font-size: 6rem;
     line-height: 2in;
     margin: 0 9rem;
     font-weight: bold;
-  
 }
 
 .timer-container {
@@ -64,10 +66,13 @@ li { background: #f3f1f1;
     font-size: 2rem;
     text-align: center
 }
-nav {color: #6b4343
-     //не получилось
-  }
-p {font-size: 1rem;
-  text-align: center
-  }
+
+nav {
+    color: #6b4343
+}
+
+p {
+    font-size: 1rem;
+    text-align: center
+}
   
