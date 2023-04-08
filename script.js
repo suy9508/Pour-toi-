@@ -4,7 +4,7 @@ const minsElement = document.getElementById('minutes');
 const secondsElement = document.getElementById('секунды');
 
 
-const targetDate = "8 Mar 2023";
+const targetDate = "01 sept 2023";
 
 function countdown() {
 		// инициализация значений
