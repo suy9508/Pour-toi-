@@ -91,21 +91,20 @@ h3  {
     color: #3f2323;
     display: grid;
     grid-template-columns: 1fr;
+    margin: 5rem;
 }
 
 .text-img {
-   grid-template-columns: 1fr 2fr;
-   display: grid;
-   grid-template-rows: 1fr;
-    margin: 0 auto;
-    padding-left: 115px;
-    padding-right: 115px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .img-text {
-    grid-template-columns: 2fr 1fr;
-   display: grid;
-   grid-template-rows: 1fr;
+   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
     
@@ -120,7 +119,13 @@ h3  {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 5rem;
+
+}
+
+.description {
+    margin: 5rem;
 }
 
 .element {
@@ -139,6 +144,11 @@ p {
     text-align: center
 }
 
+.social-media {
+    text-align: right;
+    font-size: 2rem;
+
+}
 
 
 
